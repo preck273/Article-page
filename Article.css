@@ -1,0 +1,436 @@
+
+
+
+body{
+	background-color: white;
+	background-size: cover;
+
+}
+
+/* this is the css for the top header containing, ul links */
+
+.container{
+	
+	font-family: sans-serif;
+}
+
+.container ul{
+	list-style-type: none;
+	margin: -8px;
+	padding: 20px;
+	background-color:darkred;
+	height:60px;
+	width:100%;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -10px;
+	position: fixed;
+	top: 0;
+	
+}
+
+.container li{
+	display: inline;
+
+}
+
+.container li a{
+	padding: 14px 16px;
+	margin:25px;
+	color:white;
+	text-decoration: none;
+}
+
+.container li a:hover{
+	background-color: black;
+}
+
+/* this is the css for the content of the page on the left hand side for links and img */
+.content{
+	background-color: white;
+	width:70%;
+
+}
+
+.content a{
+	text-decoration: none;
+	color:black;
+}
+
+.content a:hover{
+	color:lightblue;
+}
+
+.content img{
+	width: 350px;
+	height:200px;
+	margin-left: 30px;
+}
+
+.content h1{
+	margin-left: 50px;
+	font-size: 60px;
+}
+   /* this is the css for the first 4 boxes of the front page */
+.news{
+	width:100%;
+}
+
+.news article{
+	width:20%;
+	height: 350px;
+	background-color: white;
+	border-bottom: 2px solid red;
+	box-shadow: 0 0 30px gray;
+	margin: 30px;
+	float:left;
+	
+}
+
+.news img{
+	width:100%;
+	height: 180px;
+}
+
+.news h1{
+	font-size: 35px;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.news h2{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.news a{
+	color:black;
+	text-decoration: none;
+}
+
+.news a:hover{
+	color:blue;
+}
+
+ /* this is the css for each article on the left side of the page */
+
+.books article h2{
+   float: right;
+   margin-right: 160px;
+   
+}
+
+.books article p{
+   float: right;
+   margin-top:-148px;
+   margin-right: 50px;
+}
+
+.books article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-210px;
+	margin-right: 528px;
+	color:lightgray;
+
+}
+
+.computer article h2{
+	float:right;
+	margin-right: 160px;
+}
+
+.computer article p{
+	float:right;
+	margin-top:-120px;
+   margin-right: 150px;
+}
+
+.computer article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 520px;
+	color:lightgray;
+}
+
+
+.wildland article h2{
+	float:right;
+	margin-right: 430px;
+}
+
+.wildland article p{
+	float:right;
+	margin-top:-150px;
+	margin-right: 20px;
+}
+
+.wildland article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 518px;
+	color:lightgray;
+}
+
+
+.ICT article h2{
+	float:right;
+	margin-right: 110px;
+}
+  
+.ICT article p{
+	float:right;
+	margin-top:-150px;
+	margin-right: 142px;
+}
+
+.ICT article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 530px;
+	color:lightgray;
+}
+
+.water article h2{
+	float:right;
+	margin-right: 345px;
+}
+
+.water article p{
+	float:right;
+	margin-top:-150px;
+	margin-right: 25px;
+}
+
+.water article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 540px;
+	color:lightgray;
+}
+
+
+.ancient article h2{
+	float:right;
+	margin-right: 325px;
+}
+
+.ancient article p{
+	float:right;
+	margin-top:-150px;
+	margin-right: 12px;
+}
+
+.ancient article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 542px;
+	color:lightgray;
+}
+
+.sanitizer article h2{
+	float:right;
+	margin-right: 485px;
+}
+
+.sanitizer article p{
+	float:right;
+	margin-top:-150px;
+	margin-right: 8px;
+}
+
+.sanitizer article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 540px;
+	color:lightgray;
+}
+
+
+.wine article h2{
+	float:right;
+	margin-right: 208px;
+}
+
+.wine article p{
+	float:right;
+	margin-top:-150px;
+	margin-right: 32px;
+}
+
+.wine article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 540px;
+	color:lightgray;
+}
+
+.junkfood article h2{
+	float:right;
+	margin-right: 199px;
+}
+
+.junkfood article p{
+	float:right;
+	margin-top:-125px;
+	margin-right: 22px;
+}
+
+.junkfood article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 528px;
+	color:lightgray;
+}
+
+.meat article h2{
+	float:right;
+	margin-right: 225px;
+}
+
+.meat article p{
+	float:right;
+	margin-top:-125px;
+	margin-right: 45px;
+}
+
+.meat article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 500px;
+	color:lightgray;
+}
+
+
+.vitamins article h2{
+	float:right;
+	margin-right: 248px;
+}
+
+.vitamins article p{
+	float:right;
+	margin-top:-125px;
+	margin-right: 32px;
+}
+
+.vitamins article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 500px;
+	color:lightgray;
+}
+
+
+.wolfing  article h2{
+	float:right;
+	margin-right: 250px;
+}
+
+.wolfing article p{
+	float:right;
+	margin-top:-125px;
+	margin-right: 16px;
+}
+
+.wolfing article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 498px;
+	color:lightgray;
+}
+
+
+.love article h2{
+	float:right;
+	margin-right: 230px;
+}
+
+.love article p{
+	float:right;
+	margin-top:-125px;
+	margin-right: 35px;
+}
+
+.love article h6{
+	font-size:14px;
+	float:right;
+	margin-top:-205px;
+	margin-right: 520px;
+	color:lightgray;
+}
+   /* this is the css for the artictle on the right hand side */
+.contentright{
+	background-color: white;
+	width:28%;
+	height: 1170px;
+	float: right;
+	margin-top: -2800px;
+}
+
+.contentright h1{
+	
+	background-color: darkred;
+	width:250px;
+	margin-left: 100px;
+	padding-left: 30px;
+	color:white;
+	font-size: 28px;
+}
+
+.contentright article{
+	width:100%;
+	height: 300px;
+	margin: 20px;
+	background-color: white;
+	border: 0px solid white;
+	border-bottom: 2px solid red;
+	box-shadow: 0 0 30px gray;
+}
+
+.contentright img{
+	width:100%;
+	height: 220px;
+}
+
+.contentright h2{
+	font-size: 25px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.contentright a{
+	color:black;
+	text-decoration: none;
+}
+
+.contentright a:hover{
+	color:gray;
+}
+
+.footer1{
+	background-color: darkgray;
+	width:100%;
+	height: 300px;
+
+
+}
+
+.footer2{
+	background-color:black;
+	height:50px;
+}
+		
+
+

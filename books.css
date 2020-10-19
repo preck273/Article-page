@@ -1,0 +1,156 @@
+
+
+body{
+	background-color: white;
+	background-size: cover;
+	
+}
+
+.container{
+	font-family: sans-serif;
+	
+}
+
+ /* this is the css for the top header containing, ul links */
+.container ul{
+	list-style-type: none;
+	margin: -8px;
+	padding: 20px;
+	background-color:darkred;
+	height:60px;
+	width: 100%;
+	position: fixed;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -10px;
+	top:0px;
+	
+}
+
+.container li{
+	display: inline;
+
+}
+
+.container li a{
+	padding: 14px 16px;
+	margin:25px;
+	color:white;
+	text-decoration: none;
+}
+
+.container li a:hover{
+	background-color: black;
+}
+   
+    /* this is the css for the content of each page */
+.content{
+	width: 70%;
+	margin-top: 8px;
+	background-color: white;
+}
+
+.content img{
+	width:90%;
+	height: 600px;
+	margin:45px;
+	display:block;	
+}
+
+
+.content h1{
+	text-align: center;
+	font-size: 45px;
+	margin-top: 120px;
+	
+}
+
+.content h6{
+	margin-left: 50px;
+	font-size:15px;
+	color:gray;
+}
+
+.content p{
+	width:90%;
+	margin:45px;
+	font-size: 18px;
+
+}
+
+.content h2, h3{
+	width:90%;
+	margin:45px;
+	
+
+}
+   /* this is the css for the article on the right hand side of each page */
+
+.contentright{
+	width: 30%;
+	height: 800px;
+	background-color: white;
+	float: right;
+	margin-top: -2400px;
+}
+
+.contentright article{
+	width: 100%
+
+}
+
+.contentright img{
+	width:40%;
+	height: 100px;
+	float:right;
+	margin-right: 30px;
+}
+
+.contentright h1{
+    background-color: darkred;
+    color:white;
+    width:180px;
+	margin: 45px;
+	padding-left: 15px;
+	margin-left: 100px;
+	color:white;
+	font-size: 25px;
+}
+
+.contentright h2{
+     font-size: 18px;
+
+
+}
+
+.contentright a{
+	text-decoration: none;
+	color:green;
+
+}
+
+.contentright a:hover{
+	color:blue;
+}
+
+
+.footer1{
+	width:100%;
+	height: 300px;
+	margin:-8px;
+	background-color: gray;
+	
+	
+}
+
+.footer2{
+	height: 50px;
+	background-color: black;
+}
+
+
+
+
+
+
+
